@@ -1,20 +1,6 @@
 
-
-
-/* ============================================= */
-/*              Base styles                      */
-/* ============================================= */
-
-* {
-    font-family: $font-stack-primary;
-    color: $color-font;
-    box-sizing: border-box;
-  }
-  
-  p {
-    line-height: 1.45em;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+ /* ============================================= */
+ /* Base Imports */
+ /* ============================================= */
+ @import 'normalize';
+ @import 'typography';
