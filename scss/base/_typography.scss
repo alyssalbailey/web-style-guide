@@ -6,7 +6,7 @@
 
 * {
     font-family: 'Lato', sans-serif;
-    color: #777;
+    color: $color-text-base;
     box-sizing: border-box;
   }
   
@@ -24,17 +24,17 @@
   /* ============================================= */
   
   .headline-primary {
-    color: #58e1c1;
+    color: $color-primary;
     margin-left: 10px;
   }
   
   .headline-secondary {
     font-weight: 300;
-    color: #777;
+    color: $color-text-base;
   }
   
   .link {
-    color: #51ddfc;
+    color: $color-link;
     font-weight: 700;
   }
   
@@ -44,7 +44,7 @@
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
-    border-left: 8px solid #58e1c1;
+    border-left: 8px solid $color-primary;
     border-radius: 5px;
   }
   
