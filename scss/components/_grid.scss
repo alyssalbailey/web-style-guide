@@ -19,10 +19,18 @@
     display: flex;
     flex-direction: column;
     padding: 1em 10px;
-      @media (min-width: $brk-narrow) {
+      @media (min-width: $brk-narrow){
         flex-direction: row;
       }
   }
+
+  .centered {
+    @media (min-width: $brk-narrow){
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
   
   [class^=col] {
     margin-top: 10px;
@@ -126,4 +134,9 @@
     flex-basis: 100%;
   }
   
-  
+  [class^=col] + [class^=col] {
+    @media (min-width: $brk-narrow){
+      margin-left: 10px;
+      }
+  }
+}

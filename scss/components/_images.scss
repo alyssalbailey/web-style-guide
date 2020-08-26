@@ -29,3 +29,10 @@
     margin-right: auto;
   }
   
+  .logo {
+    @media (min-width: $brk-narrow){
+      margin-left: initial;
+      margin-right: initial;
+    }
+
+  }
