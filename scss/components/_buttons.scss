@@ -12,6 +12,9 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+      @media (min-width: $brk-narrow) {
+        padding: 10px 30px;
+      }
   }
   
   .default {

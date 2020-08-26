@@ -5,7 +5,7 @@
 /* ============================================= */
 
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: $stack-sans-serif;
     color: $color-text-base;
     box-sizing: border-box;
   }
@@ -29,18 +29,18 @@
   }
   
   .headline-secondary {
-    font-weight: 300;
+    font-weight: $font-weight-light;
     color: $color-text-base;
   }
   
   .link {
     color: $color-link;
-    font-weight: 700;
+    font-weight: $font-weight-bold;
   }
   
   .blockquote {
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: $font-weight-light;
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
