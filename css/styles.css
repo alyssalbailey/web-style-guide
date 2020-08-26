@@ -405,6 +405,7 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  transition: background-color 3s;
 }
 @media (min-width: (max-width: 768px)) {
   .btn {
@@ -415,21 +416,36 @@ a {
 .default {
   background-color: #51ddfc;
 }
+.default:hover {
+  background-color: #9cecfd;
+}
 
 .error {
   background-color: #e4757a;
+}
+.error:hover {
+  background-color: #f1b5b8;
 }
 
 .info {
   background-color: #927bc1;
 }
+.info:hover {
+  background-color: ligthen(#51ddfc, 15%);
+}
 
 .success {
   background-color: #63cc82;
 }
+.success:hover {
+  background-color: ligthen(#63cc82, 15%);
+}
 
 .warning {
   background-color: #fd7856;
+}
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 @media (min-width: (max-width: 768px)) {
@@ -479,7 +495,7 @@ a {
     align-items: center;
   }
 }
-.nav .nav-link {
+.nav-link {
   text-align: center;
   border-radius: 5px;
   padding: 10px 0;
@@ -488,11 +504,11 @@ a {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 @media (min-width: (max-width: 768px)) {
-  .nav .nav-link {
+  .nav-link {
     flex-basis: 100px;
   }
 }
-.nav .nav-link:hover {
+.nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
@@ -684,9 +700,5 @@ a {
     margin-left: 10px;
   }
 }
-
-/* ============================================= */
-/*              Media Queries                    */
-/* ============================================= */
 
 /*# sourceMappingURL=styles.css.map */

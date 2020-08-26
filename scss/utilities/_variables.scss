@@ -5,15 +5,23 @@ $color-text-base: #777;
 $color-primary: #58e1c1;
 $color-link: #51ddfc;
 
-
 // Button background colors
 
 $color-button-text: #fff;
 $color-button-default: #51ddfc;
+$default-light: lighten($color-button-default, 15%);
+
 $color-button-info: #927bc1;
+$info-light: ligthen($color-button-default, 15%);
+
 $color-button-error: #e4757a;
+$error-light: lighten($color-button-error, 15%);
+
 $color-button-success: #63cc82;
+$success-light: ligthen($color-button-success, 15%);
+
 $color-button-warning: #fd7856;
+$warning-light: lighten($color-button-warning, 15%);
 
 // Image border
 
