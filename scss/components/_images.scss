@@ -30,7 +30,7 @@
   }
   
   .logo {
-    @media (min-width: $brk-narrow){
+    @media ($brk-narrow){
       margin-left: initial;
       margin-right: initial;
     }
