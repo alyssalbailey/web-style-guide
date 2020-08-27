@@ -12,13 +12,13 @@ $color-button-default: #51ddfc;
 $default-light: lighten($color-button-default, 15%);
 
 $color-button-info: #927bc1;
-$info-light: ligthen($color-button-default, 15%);
+$info-light: lighten($color-button-default, 15%);
 
 $color-button-error: #e4757a;
 $error-light: lighten($color-button-error, 15%);
 
 $color-button-success: #63cc82;
-$success-light: ligthen($color-button-success, 15%);
+$success-light: lighten($color-button-success, 15%);
 
 $color-button-warning: #fd7856;
 $warning-light: lighten($color-button-warning, 15%);
@@ -29,7 +29,7 @@ $color-img-border: #ccc;
 
 // Media query breakpoint
 
-$brk-narrow: '(max-width: 768px)';
+$brk-narrow: 'min-width: 768px';
 
 // Font stacks
 
